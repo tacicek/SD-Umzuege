@@ -1,0 +1,185 @@
+[
+  {
+    "slug": "umzug",
+    "title": "Umzug",
+    "emoji": "🚛",
+    "description": "Professionelle Umzugsdienstleistungen für Privatkunden, Unternehmen und Fernumzüge in der ganzen Schweiz — mit Festpreisgarantie und Vollversicherung.",
+    "heroImage": "https://placehold.co/1200x600/1A3C6E/ffffff?text=Umzug+%E2%80%94+SD-Umz%C3%BCge",
+    "price": "Ab CHF 450",
+    "subServices": [
+      {
+        "title": "Privatumzug",
+        "emoji": "🏠",
+        "description": "Stressfreier Umzug für Privathaushalte — vom Studio bis zur grossen Familienwohnung. Wir verpacken, transportieren und stellen alles wieder auf.",
+        "image": "https://placehold.co/600x400/1A3C6E/ffffff?text=Privatumzug",
+        "features": [
+          "Festpreis ab CHF 450",
+          "Verpackungsmaterial inklusive",
+          "Möbelmontage & Demontage",
+          "Vollversicherung bis CHF 100'000",
+          "Pünktliche Durchführung"
+        ]
+      },
+      {
+        "title": "Firmenumzug",
+        "emoji": "🏢",
+        "description": "Büro- und Firmenumzüge mit minimalem Betriebsausfall. Wir koordinieren den gesamten Ablauf und sorgen für eine schnelle Wiederinbetriebnahme.",
+        "image": "https://placehold.co/600x400/2A5298/ffffff?text=Firmenumzug",
+        "features": [
+          "Flexible Terminvereinbarung (auch Wochenende)",
+          "EDV-Geräte fachgerecht verpackt",
+          "Demontage & Montage von Büromöbeln",
+          "Diskretion & Datenschutz",
+          "Offerte innert 24h"
+        ]
+      },
+      {
+        "title": "Auslandsumzug",
+        "emoji": "✈️",
+        "description": "Umzug in die EU oder darüber hinaus — wir organisieren den internationalen Transport inklusive Zolldokumentation und Versicherung.",
+        "image": "https://placehold.co/600x400/F97316/ffffff?text=Auslandsumzug",
+        "features": [
+          "EU- und Nicht-EU-Destinationen",
+          "Zolldokumentation inklusive",
+          "Internationale Transportversicherung",
+          "Persönliche Beratung & Planung",
+          "Kooperation mit europäischen Partnern"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "reinigung",
+    "title": "Reinigung",
+    "emoji": "🧹",
+    "description": "Professionelle Reinigungsdienstleistungen mit Abnahmegarantie — für Wohnungsübergaben, Büros und regelmässige Unterhaltsreinigungen.",
+    "heroImage": "https://qzmyqkolzrckgaxaypxc.supabase.co/storage/v1/object/public/Offerio%20Media/Reinigung/Reinigung-Hero.webp",
+    "price": "Ab CHF 280",
+    "subServices": [
+      {
+        "title": "Wohnungsreinigung",
+        "emoji": "🏡",
+        "description": "Professionelle Endreinigung bei Wohnungsübergabe gemäss OR Art. 267 — mit Abnahmegarantie, damit Sie Ihre Kaution vollständig zurückerhalten.",
+        "image": "https://placehold.co/600x400/1A3C6E/ffffff?text=Wohnungsreinigung",
+        "features": [
+          "Abnahmegarantie inklusive",
+          "Kalkentfernung & Fensterreinigung",
+          "Bodenreinigung & Wachsen",
+          "Küchen- und Badezimmerpflege",
+          "Festpreis ab CHF 280"
+        ]
+      },
+      {
+        "title": "Büroreinigung",
+        "emoji": "🏢",
+        "description": "Regelmässige oder einmalige Reinigung von Büroräumen, Praxen und Gewerbeliegenschaften — zuverlässig und diskret.",
+        "image": "https://placehold.co/600x400/2A5298/ffffff?text=B%C3%BCroreinigung",
+        "features": [
+          "Flexible Reinigungsintervalle",
+          "Teppich- und Hartbodenreinigung",
+          "Desinfektionsreinigung möglich",
+          "Zertifizierte Reinigungsmittel",
+          "Auf Anfrage auch nachts/am Wochenende"
+        ]
+      },
+      {
+        "title": "Unterhaltsreinigung",
+        "emoji": "🔄",
+        "description": "Regelmässige Unterhaltsreinigung für Privathaushalte — wöchentlich, zweiwöchentlich oder monatlich nach Ihren Bedürfnissen.",
+        "image": "https://placehold.co/600x400/F97316/ffffff?text=Unterhaltsreinigung",
+        "features": [
+          "Individuelle Reinigungspläne",
+          "Zuverlässiges Stammteam",
+          "Eigene Reinigungsmittel",
+          "Transparente Abrechnung",
+          "Auch kurzfristig buchbar"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "raeumung",
+    "title": "Räumung",
+    "emoji": "📦",
+    "description": "Zuverlässige Räumung von Wohnungen, Kellern und ganzen Haushalten — umweltgerecht entsorgt und verwertbare Gegenstände sinnvoll weitergegeben.",
+    "heroImage": "https://placehold.co/1200x600/1A3C6E/ffffff?text=R%C3%A4umung+%E2%80%94+SD-Umz%C3%BCge",
+    "price": "Ab CHF 350",
+    "subServices": [
+      {
+        "title": "Wohnungsräumung",
+        "emoji": "🏠",
+        "description": "Komplette Räumung von Mietwohnungen und Eigenheimen — inklusive Entsorgung, Reinigung und besenreiner Übergabe.",
+        "image": "https://placehold.co/600x400/1A3C6E/ffffff?text=Wohnungsr%C3%A4umung",
+        "features": [
+          "Festpreis ab CHF 350",
+          "Entsorgung aller Gegenstände",
+          "Besenreine Übergabe",
+          "Verwertung von Wertgegenständen",
+          "Kurze Reaktionszeit"
+        ]
+      },
+      {
+        "title": "Kellerräumung",
+        "emoji": "🪜",
+        "description": "Professionelle Räumung von Kellern, Dachböden und Lagerräumen — schnell, sorgfältig und umweltgerecht entsorgt.",
+        "image": "https://placehold.co/600x400/2A5298/ffffff?text=Kellerr%C3%A4umung",
+        "features": [
+          "Auch schwer zugängliche Räume",
+          "Separierung von Sondermüll",
+          "Recycling und Wiederverwendung",
+          "Fotografische Dokumentation",
+          "Tagespreise auf Anfrage"
+        ]
+      },
+      {
+        "title": "Haushaltsauflösung",
+        "emoji": "🏘️",
+        "description": "Vollständige Auflösung von Haushalten im Todesfall oder bei Heimübertritt — diskret, respektvoll und professionell.",
+        "image": "https://placehold.co/600x400/F97316/ffffff?text=Haushaltsaufl%C3%B6sung",
+        "features": [
+          "Einfühlsame Betreuung",
+          "Wertgegenstände werden eingeschätzt",
+          "Komplette Dokumentation",
+          "Koordination mit Behörden möglich",
+          "Abschlussreinigung inklusive"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "klaviertransport",
+    "title": "Klaviertransport",
+    "emoji": "🎹",
+    "description": "Fachgerechter Transport von Klavieren, Flügeln und anderen empfindlichen Instrumenten — sicher verpackt, mit Spezialtechnik und Vollversicherung.",
+    "heroImage": "https://placehold.co/1200x600/1A3C6E/ffffff?text=Klaviertransport+%E2%80%94+SD-Umz%C3%BCge",
+    "price": "Ab CHF 350",
+    "subServices": [
+      {
+        "title": "Klaviertransport",
+        "emoji": "🎹",
+        "description": "Professioneller Transport von Klavieren und Digitalpianos innerhalb der Schweiz — mit Spezialmaterial und geschultem Personal.",
+        "image": "https://qzmyqkolzrckgaxaypxc.supabase.co/storage/v1/object/public/Offerio%20Media/Klaviertransport/Klaviertransport.webp",
+        "features": [
+          "Festpreis ab CHF 350",
+          "Spezielles Transportmaterial",
+          "Treppentransport möglich",
+          "Vollversicherung inklusive",
+          "Terminvereinbarung innert 48h"
+        ]
+      },
+      {
+        "title": "Flügeltransport",
+        "emoji": "🎼",
+        "description": "Fachmännischer Transport von Konzert- und Hausflügeln — mit Demontage, Schutzverpackung und sorgfältiger Aufstellung am Zielort.",
+        "image": "https://placehold.co/600x400/2A5298/ffffff?text=Fl%C3%BCgeltransport",
+        "features": [
+          "Demontage & Montage am Zielort",
+          "Spezielle Schutzverpackung",
+          "Einregulierung nach Transport",
+          "Erfahrenes Spezialistenteam",
+          "Schweizweit verfügbar"
+        ]
+      }
+    ]
+  }
+]
