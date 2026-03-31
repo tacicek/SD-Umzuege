@@ -11,12 +11,44 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.sd-umzuege.ch"),
   title: {
-    default: "SD-Umzüge — Ihr zuverlässiger Umzugspartner",
+    default: "SD-Umzüge — Umzugsunternehmen Zürich",
     template: "%s | SD-Umzüge",
   },
   description:
-    "SD-Umzüge bietet professionelle Umzugsdienstleistungen für Privat- und Gewerbekunden. Jetzt kostenloses Angebot anfordern.",
+    "SD-Umzüge: Professionelles Umzugsunternehmen in Zürich. Umzug, Reinigung, Räumung & Klaviertransport mit Festpreisgarantie. Jetzt kostenlose Offerte anfordern.",
+  openGraph: {
+    type: "website",
+    locale: "de_CH",
+    siteName: "SD-Umzüge",
+    images: [
+      {
+        url: "/images/SD-Umzug-Logo.webp",
+        width: 1200,
+        height: 630,
+        alt: "SD-Umzüge — Umzugsunternehmen Zürich",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SD-Umzüge — Umzugsunternehmen Zürich",
+    description:
+      "Professionelles Umzugsunternehmen in Zürich. Umzug, Reinigung, Räumung & Klaviertransport mit Festpreisgarantie.",
+    images: ["/images/SD-Umzug-Logo.webp"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: "/favicon.webp",
     shortcut: "/favicon.webp",

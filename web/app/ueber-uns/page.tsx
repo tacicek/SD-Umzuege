@@ -3,9 +3,16 @@ import Link from "next/link";
 import CtaSection from "@/components/sections/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Über uns | SD-Umzüge",
+  title: "Über SD-Umzüge — Ihr Umzugsunternehmen in Zürich",
   description:
-    "Lernen Sie S&D Umzüge kennen — Ihr zuverlässiger Umzugspartner in Rüti ZH. Über 500 erfolgreiche Umzüge, Festpreisgarantie und Vollversicherung.",
+    "Lernen Sie SD-Umzüge kennen — über 10 Jahre Erfahrung und 500+ erfolgreiche Umzüge in Zürich & Deutschschweiz. Festpreisgarantie, Vollversicherung, persönliche Betreuung vom ersten Telefonat bis zur Übergabe.",
+  alternates: { canonical: "/ueber-uns" },
+  openGraph: {
+    title: "Über SD-Umzüge — Ihr Umzugsunternehmen in Zürich",
+    description:
+      "10+ Jahre Erfahrung, 500+ erfolgreiche Umzüge. SD-Umzüge — Festpreisgarantie und Vollversicherung inklusive.",
+    url: "/ueber-uns",
+  },
 };
 
 // ── Data ─────────────────────────────────────────────────────────────────────

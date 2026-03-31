@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Räumung Offerte anfordern | SD-Umzüge",
   description:
     "Unverbindliche Offerte für Wohnungsräumung, Kellerräumung oder Haushaltsauflösung — schnell und zuverlässig.",
+  robots: { index: false, follow: false },
 };
 
 export default function RaeumungAngebotPage() {

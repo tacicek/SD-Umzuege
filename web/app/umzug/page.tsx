@@ -7,9 +7,16 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Umzug | SD-Umzüge",
+  title: "Umzug Zürich — Privatumzug, Firmenumzug & Auslandsumzug",
   description:
-    "Professionelle Umzugsdienstleistungen für Privatkunden, Unternehmen und Fernumzüge in der ganzen Schweiz — mit Festpreisgarantie und Vollversicherung.",
+    "Professioneller Umzug in Zürich ab CHF 450 — Privatumzug, Firmenumzug & Auslandsumzug mit Festpreisgarantie, Vollversicherung bis CHF 100'000 und erfahrenem Team. Jetzt Offerte anfordern.",
+  alternates: { canonical: "/umzug" },
+  openGraph: {
+    title: "Umzug Zürich — Privatumzug, Firmenumzug & Auslandsumzug | SD-Umzüge",
+    description:
+      "Professioneller Umzug in Zürich ab CHF 450 — Festpreisgarantie, Vollversicherung, über 500 erfolgreiche Umzüge.",
+    url: "/umzug",
+  },
 };
 
 export default function UmzugPage() {

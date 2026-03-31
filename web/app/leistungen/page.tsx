@@ -4,9 +4,16 @@ import Link from "next/link";
 import { getAllServices } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Leistungen | SD-Umzüge",
+  title: "Leistungen — Umzug, Reinigung, Räumung & Klaviertransport Zürich",
   description:
-    "Alle Dienstleistungen von SD-Umzüge: Umzug, Reinigung, Räumung und Klaviertransport in Rüti ZH und der ganzen Deutschschweiz — mit Festpreisgarantie.",
+    "Alle Leistungen von SD-Umzüge in Zürich: Privatumzug, Firmenumzug, Wohnungsreinigung mit Abnahmegarantie, Räumung & Klaviertransport — alle mit Festpreisgarantie und Vollversicherung.",
+  alternates: { canonical: "/leistungen" },
+  openGraph: {
+    title: "Leistungen — Umzug, Reinigung, Räumung & Klaviertransport | SD-Umzüge Zürich",
+    description:
+      "Alle Dienstleistungen aus einer Hand: Umzug, Reinigung, Räumung & Klaviertransport in Zürich. Festpreisgarantie auf alle Leistungen.",
+    url: "/leistungen",
+  },
 };
 
 export default function LeistungenPage() {

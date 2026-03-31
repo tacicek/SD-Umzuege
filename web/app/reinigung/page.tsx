@@ -7,9 +7,16 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Reinigung | SD-Umzüge",
+  title: "Wohnungsreinigung Zürich mit Abnahmegarantie — Endreinigung",
   description:
-    "Professionelle Reinigungsdienstleistungen mit Abnahmegarantie — für Wohnungsübergaben, Büros und regelmässige Unterhaltsreinigungen.",
+    "Professionelle Endreinigung in Zürich ab CHF 280 — Abnahmegarantie, Kalkentfernung, Fenster- & Bodenreinigung. Kaution vollständig zurück. Büroreinigung & Unterhaltsreinigung ebenfalls verfügbar.",
+  alternates: { canonical: "/reinigung" },
+  openGraph: {
+    title: "Wohnungsreinigung Zürich mit Abnahmegarantie | SD-Umzüge",
+    description:
+      "Endreinigung ab CHF 280 mit Abnahmegarantie — Ihre Kaution ist sicher. Professionell, zuverlässig, pünktlich.",
+    url: "/reinigung",
+  },
 };
 
 export default function ReinigungPage() {

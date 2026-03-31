@@ -4,9 +4,16 @@ import CtaSection from "@/components/sections/CtaSection";
 import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Kontakt | SD-Umzüge",
+  title: "Kontakt & kostenlose Offerte — SD-Umzüge Zürich",
   description:
-    "Kontaktieren Sie SD-Umzüge — kostenlose Offerte, Fragen oder Terminvereinbarung. Wir antworten innert 24 Stunden.",
+    "Kontaktieren Sie SD-Umzüge in Zürich — kostenlose Offerte anfordern, Fragen stellen oder Termin vereinbaren. Antwort innert 24 Stunden. Tel: +41 76 505 37 92.",
+  alternates: { canonical: "/kontakt" },
+  openGraph: {
+    title: "Kontakt & kostenlose Offerte | SD-Umzüge Zürich",
+    description:
+      "Jetzt kostenlose Offerte anfordern. SD-Umzüge antwortet innert 24 Stunden — Tel: +41 76 505 37 92.",
+    url: "/kontakt",
+  },
 };
 
 const contactItems = [

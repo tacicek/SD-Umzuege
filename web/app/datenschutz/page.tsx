@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Datenschutzerklärung | SD-Umzüge",
+  description: "Datenschutzerklärung von SD-Umzüge gemäss Schweizer Datenschutzgesetz (DSG).",
+  robots: { index: false, follow: false },
+};
+
 export default function DatenschutzPage() {
   return (
     <main className="flex-1 py-16 md:py-24">

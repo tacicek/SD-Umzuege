@@ -7,9 +7,16 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Räumung | SD-Umzüge",
+  title: "Wohnungsräumung & Haushaltsauflösung Zürich",
   description:
-    "Zuverlässige Räumung von Wohnungen, Kellern und ganzen Haushalten — umweltgerecht entsorgt und verwertbare Gegenstände sinnvoll weitergegeben.",
+    "Zuverlässige Wohnungsräumung & Haushaltsauflösung in Zürich ab CHF 350 — inkl. Kellerräumung, umweltgerechte Entsorgung und besenreiner Übergabe. Diskret, schnell, professionell.",
+  alternates: { canonical: "/raeumung" },
+  openGraph: {
+    title: "Wohnungsräumung & Haushaltsauflösung Zürich | SD-Umzüge",
+    description:
+      "Räumung ab CHF 350 — Wohnungsräumung, Kellerräumung & Haushaltsauflösung in Zürich. Umweltgerechte Entsorgung inklusive.",
+    url: "/raeumung",
+  },
 };
 
 export default function RaeumungPage() {

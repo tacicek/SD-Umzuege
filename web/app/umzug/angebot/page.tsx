@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Umzug Offerte anfordern | SD-Umzüge",
   description:
     "Erhalten Sie innert 24 Stunden eine unverbindliche Offerte für Ihren Umzug — Privatumzug, Firmenumzug oder Auslandsumzug.",
+  robots: { index: false, follow: false },
 };
 
 export default function UmzugAngebotPage() {

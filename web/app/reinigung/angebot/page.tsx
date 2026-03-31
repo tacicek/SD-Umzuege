@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Reinigung Offerte anfordern | SD-Umzüge",
   description:
     "Unverbindliche Offerte für Wohnungsreinigung, Büroreinigung oder Unterhaltsreinigung — mit Abnahmegarantie.",
+  robots: { index: false, follow: false },
 };
 
 export default function ReinigungAngebotPage() {

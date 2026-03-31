@@ -7,9 +7,16 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Klaviertransport | SD-Umzüge",
+  title: "Klaviertransport Zürich — Klavier & Flügel Transport",
   description:
-    "Fachgerechter Transport von Klavieren, Flügeln und anderen empfindlichen Instrumenten — sicher verpackt, mit Spezialtechnik und Vollversicherung.",
+    "Fachgerechter Klaviertransport in Zürich ab CHF 350 — sichere Verpackung, Spezialtechnik, Treppentransport & Vollversicherung. Auch Flügeltransport, Digitalpianos & schweizweiter Transport.",
+  alternates: { canonical: "/klaviertransport" },
+  openGraph: {
+    title: "Klaviertransport Zürich — Klavier & Flügel Transport | SD-Umzüge",
+    description:
+      "Klaviertransport ab CHF 350 — Klavier, Flügel & Digitalpianos sicher transportiert. Schweizweit verfügbar, Vollversicherung inklusive.",
+    url: "/klaviertransport",
+  },
 };
 
 export default function KlaviertransportPage() {

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Klaviertransport Offerte anfordern | SD-Umzüge",
   description:
     "Unverbindliche Offerte für Klaviertransport oder Flügeltransport — mit Vollversicherung und Spezialtechnik.",
+  robots: { index: false, follow: false },
 };
 
 export default function KlaviertransportAngebotPage() {
