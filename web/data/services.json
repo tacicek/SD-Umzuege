@@ -60,7 +60,7 @@
         "title": "Wohnungsreinigung",
         "emoji": "🏡",
         "description": "Professionelle Endreinigung bei Wohnungsübergabe gemäss OR Art. 267 — mit Abnahmegarantie, damit Sie Ihre Kaution vollständig zurückerhalten.",
-        "image": "https://placehold.co/600x400/1A3C6E/ffffff?text=Wohnungsreinigung",
+        "image": "https://qzmyqkolzrckgaxaypxc.supabase.co/storage/v1/object/public/Offerio%20Media/Reinigung/Reinigung-Hero.webp",
         "features": [
           "Abnahmegarantie inklusive",
           "Kalkentfernung & Fensterreinigung",
@@ -73,7 +73,7 @@
         "title": "Büroreinigung",
         "emoji": "🏢",
         "description": "Regelmässige oder einmalige Reinigung von Büroräumen, Praxen und Gewerbeliegenschaften — zuverlässig und diskret.",
-        "image": "https://placehold.co/600x400/2A5298/ffffff?text=B%C3%BCroreinigung",
+        "image": "https://qzmyqkolzrckgaxaypxc.supabase.co/storage/v1/object/public/Offerio%20Media/Reinigung/Reinigung-Hero.webp",
         "features": [
           "Flexible Reinigungsintervalle",
           "Teppich- und Hartbodenreinigung",
@@ -86,7 +86,7 @@
         "title": "Unterhaltsreinigung",
         "emoji": "🔄",
         "description": "Regelmässige Unterhaltsreinigung für Privathaushalte — wöchentlich, zweiwöchentlich oder monatlich nach Ihren Bedürfnissen.",
-        "image": "https://placehold.co/600x400/F97316/ffffff?text=Unterhaltsreinigung",
+        "image": "https://qzmyqkolzrckgaxaypxc.supabase.co/storage/v1/object/public/Offerio%20Media/Reinigung/Reinigung-Hero.webp",
         "features": [
           "Individuelle Reinigungspläne",
           "Zuverlässiges Stammteam",
@@ -102,14 +102,14 @@
     "title": "Räumung",
     "emoji": "📦",
     "description": "Zuverlässige Räumung von Wohnungen, Kellern und ganzen Haushalten — umweltgerecht entsorgt und verwertbare Gegenstände sinnvoll weitergegeben.",
-    "heroImage": "https://placehold.co/1200x600/1A3C6E/ffffff?text=R%C3%A4umung+%E2%80%94+SD-Umz%C3%BCge",
+    "heroImage": "\public\images\Reaumung-sd-umzuege.webp",
     "price": "Ab CHF 350",
     "subServices": [
       {
         "title": "Wohnungsräumung",
         "emoji": "🏠",
         "description": "Komplette Räumung von Mietwohnungen und Eigenheimen — inklusive Entsorgung, Reinigung und besenreiner Übergabe.",
-        "image": "https://placehold.co/600x400/1A3C6E/ffffff?text=Wohnungsr%C3%A4umung",
+        "image": "\public\images\Reaumung-sd-umzuege.webp",
         "features": [
           "Festpreis ab CHF 350",
           "Entsorgung aller Gegenstände",
@@ -122,7 +122,7 @@
         "title": "Kellerräumung",
         "emoji": "🪜",
         "description": "Professionelle Räumung von Kellern, Dachböden und Lagerräumen — schnell, sorgfältig und umweltgerecht entsorgt.",
-        "image": "https://placehold.co/600x400/2A5298/ffffff?text=Kellerr%C3%A4umung",
+        "image": "\public\images\Reaumung-sd-umzuege.webp",
         "features": [
           "Auch schwer zugängliche Räume",
           "Separierung von Sondermüll",
@@ -135,7 +135,7 @@
         "title": "Haushaltsauflösung",
         "emoji": "🏘️",
         "description": "Vollständige Auflösung von Haushalten im Todesfall oder bei Heimübertritt — diskret, respektvoll und professionell.",
-        "image": "https://placehold.co/600x400/F97316/ffffff?text=Haushaltsaufl%C3%B6sung",
+        "image": "\public\images\Reaumung-sd-umzuege.webp",
         "features": [
           "Einfühlsame Betreuung",
           "Wertgegenstände werden eingeschätzt",
@@ -151,7 +151,7 @@
     "title": "Klaviertransport",
     "emoji": "🎹",
     "description": "Fachgerechter Transport von Klavieren, Flügeln und anderen empfindlichen Instrumenten — sicher verpackt, mit Spezialtechnik und Vollversicherung.",
-    "heroImage": "https://placehold.co/1200x600/1A3C6E/ffffff?text=Klaviertransport+%E2%80%94+SD-Umz%C3%BCge",
+    "heroImage": "\public\images\Pianotransport-sd-umzuege.webp",
     "price": "Ab CHF 350",
     "subServices": [
       {
@@ -171,7 +171,7 @@
         "title": "Flügeltransport",
         "emoji": "🎼",
         "description": "Fachmännischer Transport von Konzert- und Hausflügeln — mit Demontage, Schutzverpackung und sorgfältiger Aufstellung am Zielort.",
-        "image": "https://placehold.co/600x400/2A5298/ffffff?text=Fl%C3%BCgeltransport",
+        "image": "\public\images\Klaviertransport-sd-umzuege.webp",
         "features": [
           "Demontage & Montage am Zielort",
           "Spezielle Schutzverpackung",
