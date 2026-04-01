@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -43,11 +43,20 @@ export default function AngebotForm() {
 
   async function onSubmit(data: AngebotFormData) {
     setIsLoading(true);
-    await new Promise((r) => setTimeout(r, 800));
-    console.log("[AngebotForm] submitted:", data);
-    setIsLoading(false);
-    setSuccess(true);
-    reset();
+    try {
+      const res = await fetch("/api/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "angebot", ...data }),
+      });
+      if (!res.ok) throw new Error("send failed");
+      setSuccess(true);
+      reset();
+    } catch {
+      alert("Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an.");
+    } finally {
+      setIsLoading(false);
+    }
   }
 
   if (success) {

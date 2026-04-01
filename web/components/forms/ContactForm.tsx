@@ -32,11 +32,20 @@ export default function ContactForm() {
 
   async function onSubmit(data: ContactFormData) {
     setIsLoading(true);
-    await new Promise((r) => setTimeout(r, 800));
-    console.log("[ContactForm] submitted:", data);
-    setIsLoading(false);
-    setSuccess(true);
-    reset();
+    try {
+      const res = await fetch("/api/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "kontakt", ...data }),
+      });
+      if (!res.ok) throw new Error("send failed");
+      setSuccess(true);
+      reset();
+    } catch {
+      alert("Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an.");
+    } finally {
+      setIsLoading(false);
+    }
   }
 
   if (success) {
