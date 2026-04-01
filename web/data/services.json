@@ -4,14 +4,14 @@
     "title": "Umzug",
     "emoji": "🚛",
     "description": "Professionelle Umzugsdienstleistungen für Privatkunden, Unternehmen und Fernumzüge in der ganzen Schweiz — mit Festpreisgarantie und Vollversicherung.",
-    "heroImage": "\public\images\Umzugsfirma-sd-umzuege.webp",
+    "heroImage": "/images/Umzugsfirma-sd-umzuege.webp",
     "price": "Ab CHF 450",
     "subServices": [
       {
         "title": "Privatumzug",
         "emoji": "🏠",
         "description": "Stressfreier Umzug für Privathaushalte — vom Studio bis zur grossen Familienwohnung. Wir verpacken, transportieren und stellen alles wieder auf.",
-        "image": "\public\images\Umzugsfirma-sd-umzuege.webp",
+        "image": "/images/Umzugsfirma-sd-umzuege.webp",
         "features": [
           "Festpreis ab CHF 450",
           "Verpackungsmaterial inklusive",
@@ -24,7 +24,7 @@
         "title": "Firmenumzug",
         "emoji": "🏢",
         "description": "Büro- und Firmenumzüge mit minimalem Betriebsausfall. Wir koordinieren den gesamten Ablauf und sorgen für eine schnelle Wiederinbetriebnahme.",
-        "image": "\public\images\Umzugsfirma-sd-umzuege.webp",
+        "image": "/images/Umzugsfirma-sd-umzuege.webp",
         "features": [
           "Flexible Terminvereinbarung (auch Wochenende)",
           "EDV-Geräte fachgerecht verpackt",
@@ -37,7 +37,7 @@
         "title": "Auslandsumzug",
         "emoji": "✈️",
         "description": "Umzug in die EU oder darüber hinaus — wir organisieren den internationalen Transport inklusive Zolldokumentation und Versicherung.",
-        "image": "\public\images\Umzugsfirma-sd-umzuege.webp",
+        "image": "/images/Umzugsfirma-sd-umzuege.webp",
         "features": [
           "EU- und Nicht-EU-Destinationen",
           "Zolldokumentation inklusive",
