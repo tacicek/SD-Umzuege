@@ -11,7 +11,7 @@ import {
 
 export const dynamic = "force-dynamic";
 
-const TO_EMAIL = "info@sd-umzuege.ch";
+const TO_EMAIL = process.env.RESEND_TO_EMAIL ?? "info@sd-umzuege.ch";
 
 const SUBJECT_MAP: Record<string, string> = {
   kontakt: "Neue Kontaktanfrage — sd-umzuege.ch",
