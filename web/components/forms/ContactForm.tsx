@@ -13,6 +13,7 @@ import { CheckCircle2 } from "lucide-react";
 export default function ContactForm() {
   const [success, setSuccess] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const {
     register,
@@ -32,17 +33,19 @@ export default function ContactForm() {
 
   async function onSubmit(data: ContactFormData) {
     setIsLoading(true);
+    setSubmitError(null);
     try {
       const res = await fetch("/api/send", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ type: "kontakt", ...data }),
       });
-      if (!res.ok) throw new Error("send failed");
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error ?? "Unbekannter Fehler");
       setSuccess(true);
       reset();
-    } catch {
-      alert("Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an.");
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : "Unbekannter Fehler");
     } finally {
       setIsLoading(false);
     }
@@ -214,6 +217,12 @@ export default function ContactForm() {
           </p>
         )}
       </div>
+
+      {submitError && (
+        <p role="alert" className="text-sm text-brand-error bg-red-50 border border-red-200 rounded-xl px-4 py-3">
+          {submitError}
+        </p>
+      )}
 
       {/* Submit */}
       <div className="pt-1">

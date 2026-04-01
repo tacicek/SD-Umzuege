@@ -66,7 +66,7 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: "Ungültiger Formulartyp." }, { status: 400 });
     }
 
-    const { error } = await resend.emails.send({
+    const { data: emailData, error } = await resend.emails.send({
       from: FROM_EMAIL,
       to: TO_EMAIL,
       replyTo: typeof data.email === "string" ? data.email : undefined,
@@ -76,13 +76,18 @@ export async function POST(req: NextRequest) {
     });
 
     if (error) {
-      console.error("[send] Resend error:", error);
-      return NextResponse.json({ error: "E-Mail konnte nicht gesendet werden." }, { status: 500 });
+      console.error("[send] Resend error:", JSON.stringify(error));
+      return NextResponse.json(
+        { error: `Resend: ${error.message ?? JSON.stringify(error)}` },
+        { status: 500 }
+      );
     }
 
+    console.log("[send] Email sent:", emailData?.id);
     return NextResponse.json({ success: true });
   } catch (err) {
-    console.error("[send] Unexpected error:", err);
-    return NextResponse.json({ error: "Serverfehler." }, { status: 500 });
+    const msg = err instanceof Error ? err.message : String(err);
+    console.error("[send] Unexpected error:", msg);
+    return NextResponse.json({ error: msg }, { status: 500 });
   }
 }
