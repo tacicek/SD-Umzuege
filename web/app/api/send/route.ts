@@ -9,10 +9,9 @@ import {
   klaviertransportEmailHtml, klaviertransportEmailText,
 } from "@/lib/email-templates";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+export const dynamic = "force-dynamic";
 
 const TO_EMAIL = "info@sd-umzuege.ch";
-const FROM_EMAIL = process.env.RESEND_FROM_EMAIL ?? "anfragen@sd-umzuege.ch";
 
 const SUBJECT_MAP: Record<string, string> = {
   kontakt: "Neue Kontaktanfrage — sd-umzuege.ch",
@@ -24,6 +23,9 @@ const SUBJECT_MAP: Record<string, string> = {
 };
 
 export async function POST(req: NextRequest) {
+  const resend = new Resend(process.env.RESEND_API_KEY);
+  const FROM_EMAIL = process.env.RESEND_FROM_EMAIL ?? "anfragen@sd-umzuege.ch";
+
   try {
     const body = await req.json();
     const { type, ...data } = body as { type: string; [key: string]: unknown };
