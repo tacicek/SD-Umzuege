@@ -1,0 +1,511 @@
+[
+  {
+    "gemeinde": "Zürich",
+    "slug": "zuerich",
+    "kanton": "ZH",
+    "bezirk": "Zürich",
+    "einwohner": 440000,
+    "plz": ["8001","8002","8003","8004","8005","8006","8008","8032","8037","8044","8045","8046","8047","8048","8049","8050","8051","8052","8053","8055","8057","8064"],
+    "koordinaten": { "lat": 47.3769, "lng": 8.5417 },
+    "stadtteile": ["Altstadt","Wiedikon","Langstrasse","Aussersihl","Seefeld","Schwamendingen","Affoltern","Höngg","Albisrieden","Altstetten","Oerlikon","Schwamendingen"],
+    "nachbargemeinden": ["duebendorf","schlieren","adliswil","opfikon","kilchberg"],
+    "beschreibung": "Zürich ist die grösste Stadt der Schweiz mit über 440'000 Einwohnern und das wirtschaftliche Zentrum des Landes.",
+    "services": {
+      "umzug": {
+        "aktiv": true,
+        "h1": "Umzug Zürich — Festpreisgarantie & Vollversicherung",
+        "heroSubtitel": "Professionelle Umzüge in alle 12 Stadtkreise — pünktlich, vollversichert, Festpreis ab CHF 550.",
+        "preisHinweis": "Ab CHF 550",
+        "lokaleFakten": [
+          "Halteverbotszone: Für Umzüge in der Stadt Zürich ist in vielen Quartieren eine Halteverbotszone (HV-Zone) erforderlich. Wir koordinieren die Bewilligung direkt mit der Stadtpolizei Zürich — Kosten ca. CHF 100–150.",
+          "Kenntnis aller 12 Stadtkreise: Von Kreis 1 (Altstadt) bis Kreis 12 (Schwamendingen) kennen wir die Zufahrten, Parkierungssituationen und typischen Herausforderungen.",
+          "Altbauten & Treppenhäuser: Viele Zürcher Wohnungen haben enge Treppenhäuser ohne Lift. Wir verfügen über Spezialausrüstung (Möbellifte, Tragegurte) für schwierige Zugänge.",
+          "Über 200 erfolgreiche Umzüge in der Stadt Zürich: Unser Team kennt die Besonderheiten jedes Quartiers aus der täglichen Praxis."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet ein Umzug in Zürich?",
+            "antwort": "Ein Privatumzug in Zürich kostet ab CHF 550 (2-Zimmer-Wohnung). Der genaue Preis hängt von Wohnungsgrösse, Etage, Lift-Verfügbarkeit und Zusatzleistungen ab. SD-Umzüge erstellt innert 24 Stunden eine kostenlose, verbindliche Festpreisofferte."
+          },
+          {
+            "frage": "Brauche ich eine Halteverbotszone für meinen Umzug in Zürich?",
+            "antwort": "In der Stadt Zürich ist für grössere Umzugsfahrzeuge in vielen Quartieren eine Halteverbotszone erforderlich. SD-Umzüge koordiniert die Bewilligung auf Wunsch direkt mit der Stadtpolizei Zürich. Die Kosten betragen ca. CHF 100–150 und werden separat ausgewiesen."
+          },
+          {
+            "frage": "Wie lange dauert ein Umzug innerhalb von Zürich?",
+            "antwort": "Ein Privatumzug innerhalb von Zürich dauert je nach Wohnungsgrösse 4–8 Stunden. Eine 2-Zimmer-Wohnung ist typischerweise in 4–5 Stunden erledigt, eine 4-Zimmer-Wohnung in 6–8 Stunden. Bei engen Zugängen (Altbau, kein Lift) kalkulieren wir etwas mehr Zeit ein."
+          },
+          {
+            "frage": "Macht SD-Umzüge auch Umzüge am Wochenende in Zürich?",
+            "antwort": "Ja, wir führen Umzüge in Zürich auch samstags durch. Beachten Sie, dass in Wohnquartieren bestimmte Lärmbeschränkungen gelten. Wir informieren Sie bei der Offerte über mögliche Einschränkungen und finden gemeinsam den optimalen Termin."
+          },
+          {
+            "frage": "Ist mein Umzug in Zürich versichert?",
+            "antwort": "Ja. Alle Umzüge von SD-Umzüge sind mit einer Vollversicherung bis CHF 100'000 abgedeckt. Die Versicherung schützt Ihr Umzugsgut während des gesamten Transports — ohne Mehrkosten für Sie."
+          }
+        ]
+      },
+      "reinigung": {
+        "aktiv": true,
+        "h1": "Wohnungsreinigung Zürich mit Abnahmegarantie",
+        "heroSubtitel": "Endreinigung in Zürich ab CHF 280 — Abnahmegarantie inklusive, Kaution vollständig zurück.",
+        "preisHinweis": "Ab CHF 280",
+        "lokaleFakten": [
+          "Abnahmeerfahrung: Wir kennen die Anforderungen der wichtigsten Zürcher Hausverwaltungen (WINCASA, Livit, Pensimo und weitere) und passen die Reinigung entsprechend an.",
+          "Zürcher Altbauten: Parkettböden, Naturstein-Bäder und historische Kacheln erfordern spezielle Pflegemittel — unser Team ist darin geschult.",
+          "Koordination mit Umzugstermin: Reinigung direkt nach dem Auszug möglich — ohne Wartezeit und mit einem Ansprechpartner für alles."
+        ],
+        "faq": [
+          {
+            "frage": "Was bedeutet Abnahmegarantie bei einer Endreinigung in Zürich?",
+            "antwort": "SD-Umzüge garantiert, dass Ihre Wohnung bei der Übergabe abgenommen wird. Sollte die Hausverwaltung oder der Vermieter Mängel feststellen, kommen wir innerhalb von 48 Stunden kostenlos zur Nachbesserung. Die Garantie gilt für 30 Tage nach der Reinigung."
+          },
+          {
+            "frage": "Was kostet eine Endreinigung in Zürich?",
+            "antwort": "Eine Endreinigung in Zürich kostet ab CHF 280 für ein Studio. Der Preis richtet sich nach Anzahl Zimmer, Fläche und Zustand der Wohnung. Wir erstellen auf Anfrage innert 24h eine kostenlose Offerte — mit verbindlichem Festpreis."
+          },
+          {
+            "frage": "Wie weit im Voraus muss ich die Endreinigung in Zürich buchen?",
+            "antwort": "Empfohlen sind 5–7 Werktage Vorlaufzeit. In dringenden Fällen versuchen wir, kurzfristig einen Termin zu finden. Kontaktieren Sie uns telefonisch unter +41 76 505 37 92 für Kurzfrist-Anfragen."
+          }
+        ]
+      },
+      "raeumung": {
+        "aktiv": true,
+        "h1": "Wohnungsräumung Zürich — Schnell & Diskret",
+        "heroSubtitel": "Professionelle Räumungen in Zürich ab CHF 350 — umweltgerecht, Festpreis, kurze Reaktionszeit.",
+        "preisHinweis": "Ab CHF 350",
+        "lokaleFakten": [
+          "Entsorgung in Zürich: Wir kennen die Entsorgungsvorschriften der Stadt Zürich und entsorgen fachgerecht über offizielle Entsorgungsstellen.",
+          "Sperrgutsystem Zürich: In Zürich gilt ein spezielles Sperrgutsystem — wir koordinieren die Abholung und sparen Ihnen zusätzliche Kosten.",
+          "Diskrete Abwicklung: Besonders bei Haushaltsauflösungen (Todesfall, Heimübertritt) arbeiten wir vertraulich und respektvoll."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet eine Wohnungsräumung in Zürich?",
+            "antwort": "Eine Wohnungsräumung in Zürich kostet ab CHF 350 (Kellerräumung / kleines Objekt). Eine komplette Wohnungsräumung liegt je nach Inhalt und Grösse zwischen CHF 500 und CHF 2'000. Wir erstellen nach einer Besichtigung (kostenlos) eine verbindliche Festpreisofferte."
+          },
+          {
+            "frage": "Wie schnell kann SD-Umzüge eine Räumung in Zürich durchführen?",
+            "antwort": "In dringenden Fällen können wir eine Räumung in Zürich oft bereits innerhalb von 24–48 Stunden durchführen. Für grössere Haushaltsauflösungen empfehlen wir 3–5 Werktage Vorlaufzeit für eine sorgfältige Planung."
+          },
+          {
+            "frage": "Was passiert mit verwertbaren Gegenständen bei einer Räumung in Zürich?",
+            "antwort": "Verwertbare Möbel und Gegenstände werden wenn möglich gespendet, an Second-Hand-Läden übergeben oder fair entschädigt. Wir trennen konsequent Wertstoffe von Entsorgungsgut und handeln nach dem Prinzip: Weitergeben vor Entsorgen."
+          }
+        ]
+      },
+      "klaviertransport": {
+        "aktiv": true,
+        "h1": "Klaviertransport Zürich — Fachgerecht & Vollversichert",
+        "heroSubtitel": "Sicherer Klavier- und Flügeltransport in Zürich ab CHF 350 — Spezialausrüstung, Vollversicherung.",
+        "preisHinweis": "Ab CHF 350",
+        "lokaleFakten": [
+          "Enge Treppenhäuser in Zürich: Wir verfügen über Möbellifte und Treppe-Spezialausrüstung für schwierige Zürcher Altbauten.",
+          "Konzertflügel und wertvolle Instrumente: Für besonders wertvolle Instrumente bieten wir auf Anfrage zusätzliche Sicherheitsmassnahmen und erweiterten Versicherungsschutz."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet ein Klaviertransport in Zürich?",
+            "antwort": "Ein Klaviertransport innerhalb von Zürich kostet ab CHF 350. Der genaue Preis hängt vom Instrument (Klavier, Flügel, Digitalpiano), der Zugänglichkeit (Etage, Lift) und der Distanz ab. Wir erstellen innert 48h eine kostenlose Offerte."
+          },
+          {
+            "frage": "Ist mein Klavier beim Transport in Zürich versichert?",
+            "antwort": "Ja. Alle Klaviertransporte sind mit Vollversicherung abgesichert. Der Versicherungsschutz deckt eventuelle Schäden am Instrument während des gesamten Transports ab. Für besonders wertvolle Instrumente kann auf Anfrage ein erweiterter Schutz vereinbart werden."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "gemeinde": "Winterthur",
+    "slug": "winterthur",
+    "kanton": "ZH",
+    "bezirk": "Winterthur",
+    "einwohner": 115000,
+    "plz": ["8400","8401","8402","8404","8405","8406","8408","8409"],
+    "koordinaten": { "lat": 47.4988, "lng": 8.7241 },
+    "stadtteile": ["Altstadt","Töss","Seen","Wülflingen","Oberwinterthur","Mattenbach","Veltheim"],
+    "nachbargemeinden": ["zuerich","duebendorf","illnau-effretikon","volketswil"],
+    "beschreibung": "Winterthur ist mit rund 115'000 Einwohnern die sechstgrösste Stadt der Schweiz und das wirtschaftliche Zentrum des Kantons Zürich ausserhalb der Hauptstadt.",
+    "services": {
+      "umzug": {
+        "aktiv": true,
+        "h1": "Umzug Winterthur — Festpreisgarantie & Vollversicherung",
+        "heroSubtitel": "Professionelle Umzüge in alle Winterthurer Stadtteile — Festpreis ab CHF 490, vollversichert.",
+        "preisHinweis": "Ab CHF 490",
+        "lokaleFakten": [
+          "Alle 7 Stadtteile: Ob Altstadt, Töss, Seen oder Oberwinterthur — wir kennen die Besonderheiten jedes Winterthurer Stadtteils und planen Ihren Umzug entsprechend.",
+          "Industriebauten & Lofts: Winterthur hat viele umgebaute Industriegebäude mit grossen Etagen und Lastenliften — wir sind für diese besonderen Anforderungen ausgerüstet.",
+          "Parkierungssituation: In der Winterthurer Altstadt koordinieren wir bei Bedarf mit der Stadtpolizei Winterthur die notwendigen Haltegenehmigungen.",
+          "Über 80 Umzüge im Raum Winterthur: Unser Team hat umfangreiche Erfahrung mit Umzügen in alle Winterthurer Quartiere."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet ein Umzug in Winterthur?",
+            "antwort": "Ein Privatumzug in Winterthur kostet ab CHF 490 (2-Zimmer-Wohnung). Bei grösseren Wohnungen oder besonderen Anforderungen (kein Lift, Zusatzleistungen) passen wir den Preis entsprechend an. Kostenlose Festpreisofferte innert 24h."
+          },
+          {
+            "frage": "Fährt SD-Umzüge auch für Umzüge von Rüti ZH nach Winterthur?",
+            "antwort": "Ja, Umzüge zwischen dem Zürcher Oberland (Rüti, Wetzikon, Uster) und Winterthur sind ein häufiges Einsatzgebiet von SD-Umzüge. Die Fahrtzeit von ca. 30 Minuten wird im Festpreis einkalkuliert."
+          },
+          {
+            "frage": "Macht SD-Umzüge Firmenumzüge in Winterthur?",
+            "antwort": "Ja, wir führen Firmenumzüge in Winterthur durch — auch an Wochenenden für minimale Betriebsunterbrechung. EDV-Geräte werden fachgerecht verpackt und transportiert. Terminvereinbarung innert 24h."
+          },
+          {
+            "frage": "Wie lange dauert ein Umzug innerhalb von Winterthur?",
+            "antwort": "Ein Privatumzug innerhalb von Winterthur dauert je nach Wohnungsgrösse 3–7 Stunden. Bei Umzügen zwischen Winterthur und Zürich kalkulieren wir ca. 30 Minuten zusätzliche Fahrzeit ein."
+          }
+        ]
+      },
+      "reinigung": {
+        "aktiv": true,
+        "h1": "Wohnungsreinigung Winterthur mit Abnahmegarantie",
+        "heroSubtitel": "Endreinigung in Winterthur ab CHF 260 — Abnahmegarantie, Kaution zurück, Festpreis.",
+        "preisHinweis": "Ab CHF 260",
+        "lokaleFakten": [
+          "Erfahrung mit Winterthurer Hausverwaltungen: Wir kennen die Abnahmestandards der wichtigsten Verwaltungen in Winterthur und passen unsere Reinigung entsprechend an.",
+          "Koordination möglich: Endreinigung nach dem Umzug — wir übernehmen beides und Sie haben nur einen Ansprechpartner."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet eine Endreinigung in Winterthur?",
+            "antwort": "Eine Endreinigung in Winterthur kostet ab CHF 260 für ein Studio. Der Festpreis wird nach Fläche und Zimmeranzahl berechnet. Wir erstellen innert 24h eine kostenlose Offerte — inklusive Abnahmegarantie."
+          },
+          {
+            "frage": "Was ist in der Abnahmegarantie in Winterthur enthalten?",
+            "antwort": "Die Abnahmegarantie bedeutet: Wird die Wohnung beim ersten Abnahmetermin nicht abgenommen, kommen wir kostenlos zur Nachbesserung — bis zur erfolgreichen Abnahme. Die Garantie gilt 30 Tage nach der Reinigung."
+          }
+        ]
+      },
+      "raeumung": {
+        "aktiv": true,
+        "h1": "Wohnungsräumung Winterthur — Schnell & Zuverlässig",
+        "heroSubtitel": "Professionelle Räumungen in Winterthur ab CHF 320 — Festpreis, umweltgerecht, kurze Wartezeit.",
+        "preisHinweis": "Ab CHF 320",
+        "lokaleFakten": [
+          "Schnelle Verfügbarkeit in Winterthur: Wir können Räumungen in Winterthur oft innerhalb von 24–48 Stunden durchführen.",
+          "Umweltgerechte Entsorgung: Alle Gegenstände werden nach den Entsorgungsvorschriften des Kantons Zürich getrennt und umweltgerecht entsorgt."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet eine Räumung in Winterthur?",
+            "antwort": "Eine Räumung in Winterthur kostet ab CHF 320 (kleine Kellerreinigung). Eine komplette Wohnungsräumung liegt zwischen CHF 450 und CHF 1'800. Nach einer kostenlosen Besichtigung erhalten Sie einen verbindlichen Festpreis."
+          }
+        ]
+      },
+      "klaviertransport": {
+        "aktiv": true,
+        "h1": "Klaviertransport Winterthur — Fachgerecht & Sicher",
+        "heroSubtitel": "Klavier- und Flügeltransport in Winterthur ab CHF 320 — Spezialausrüstung, Vollversicherung.",
+        "preisHinweis": "Ab CHF 320",
+        "lokaleFakten": [
+          "Musikstadt Winterthur: Als Stadt mit ausgeprägter Musikkultur (Stadtorchester Winterthur, Konservatorium) kennen wir die besonderen Anforderungen an den Transport wertvoller Instrumente."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet ein Klaviertransport in Winterthur?",
+            "antwort": "Ein Klaviertransport innerhalb von Winterthur kostet ab CHF 320. Für Transporte zwischen Winterthur und Zürich oder anderen Gemeinden wird die Distanz einkalkuliert. Kostenlose Offerte innert 48h."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "gemeinde": "Uster",
+    "slug": "uster",
+    "kanton": "ZH",
+    "bezirk": "Uster",
+    "einwohner": 36000,
+    "plz": ["8610"],
+    "koordinaten": { "lat": 47.3499, "lng": 8.7197 },
+    "stadtteile": ["Uster","Nossikon","Werrikon","Wermatswil","Niederuster","Sulzbach"],
+    "nachbargemeinden": ["duebendorf","volketswil","rueti","wetzikon","pfaeffikon"],
+    "beschreibung": "Uster ist mit rund 36'000 Einwohnern das Zentrum des Zürcher Oberlandes und wichtiger Wirtschaftsstandort im Kanton Zürich.",
+    "services": {
+      "umzug": {
+        "aktiv": true,
+        "h1": "Umzug Uster — Festpreisgarantie & Vollversicherung",
+        "heroSubtitel": "Professioneller Umzug in Uster und dem Zürcher Oberland — Festpreis ab CHF 450, vollversichert.",
+        "preisHinweis": "Ab CHF 450",
+        "lokaleFakten": [
+          "Heimgebiet Zürcher Oberland: SD-Umzüge ist im Zürcher Oberland zuhause — mit kurzen Anfahrtswegen und hervorragender Kenntnis der Region.",
+          "Neue Wohnquartiere: Uster wächst schnell — wir kennen die neuen Überbauungen (z.B. im Seequartier) und deren Zufahrtsregelungen.",
+          "Zentrumsnähe Zürich: Viele Uster-Umzüge führen nach Zürich oder umgekehrt — eine Route, die wir täglich fahren."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet ein Umzug in Uster?",
+            "antwort": "Ein Privatumzug in Uster kostet ab CHF 450 (2-Zimmer-Wohnung). Als regionale Umzugsfirma aus dem Zürcher Oberland bieten wir kurze Anfahrtswege und wettbewerbsfähige Preise. Kostenlose Festpreisofferte innert 24h."
+          },
+          {
+            "frage": "Fährt SD-Umzüge auch von Uster nach Zürich?",
+            "antwort": "Ja, Umzüge zwischen Uster und Zürich sind eine unserer häufigsten Routen. Die Fahrtzeit von ca. 20–25 Minuten wird im Festpreis einkalkuliert — ohne versteckte Kilometerkosten."
+          },
+          {
+            "frage": "Wie schnell kann ich einen Umzug in Uster buchen?",
+            "antwort": "Offerte innert 24h, Terminbestätigung innert 48h. In dringenden Fällen versuchen wir, Ihren Wunschtermin zu ermöglichen. Rufen Sie uns an: +41 76 505 37 92."
+          }
+        ]
+      },
+      "reinigung": {
+        "aktiv": true,
+        "h1": "Wohnungsreinigung Uster mit Abnahmegarantie",
+        "heroSubtitel": "Endreinigung in Uster ab CHF 260 — Abnahmegarantie, Kaution zurück, Festpreis.",
+        "preisHinweis": "Ab CHF 260",
+        "lokaleFakten": [
+          "Lokale Expertise: Als regionales Unternehmen kennen wir die Abnahmestandards der wichtigsten Uster-Verwaltungen.",
+          "Kombi-Paket möglich: Umzug + Endreinigung in Uster aus einer Hand — ein Preis, ein Team, ein Ansprechpartner."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet eine Endreinigung in Uster?",
+            "antwort": "Eine Endreinigung in Uster kostet ab CHF 260 (Studio/1 Zimmer). Kostenlose Festpreisofferte innert 24h, inklusive Abnahmegarantie."
+          }
+        ]
+      },
+      "raeumung": {
+        "aktiv": true,
+        "h1": "Wohnungsräumung Uster — Schnell & Professionell",
+        "heroSubtitel": "Räumungen in Uster ab CHF 300 — Festpreis, umweltgerecht, rasche Verfügbarkeit.",
+        "preisHinweis": "Ab CHF 300",
+        "lokaleFakten": [
+          "Kurze Reaktionszeit: Als lokales Unternehmen aus dem Zürcher Oberland sind wir in Uster schnell vor Ort."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet eine Räumung in Uster?",
+            "antwort": "Eine Räumung in Uster kostet ab CHF 300. Nach kostenloser Besichtigung erstellen wir einen verbindlichen Festpreis — keine versteckten Kosten."
+          }
+        ]
+      },
+      "klaviertransport": {
+        "aktiv": false,
+        "h1": "",
+        "heroSubtitel": "",
+        "preisHinweis": "",
+        "lokaleFakten": [],
+        "faq": []
+      }
+    }
+  },
+  {
+    "gemeinde": "Dübendorf",
+    "slug": "duebendorf",
+    "kanton": "ZH",
+    "bezirk": "Uster",
+    "einwohner": 30000,
+    "plz": ["8600"],
+    "koordinaten": { "lat": 47.3958, "lng": 8.6189 },
+    "stadtteile": ["Dübendorf","Dübelstein","Hermetschwil","Stettbach","Fehrenweid"],
+    "nachbargemeinden": ["zuerich","uster","volketswil","opfikon","schwerzenbach"],
+    "beschreibung": "Dübendorf liegt direkt an der Stadtgrenze Zürich und ist mit dem Glatttal ein wichtiger Wirtschaftsstandort im Kanton Zürich.",
+    "services": {
+      "umzug": {
+        "aktiv": true,
+        "h1": "Umzug Dübendorf — Festpreisgarantie & Vollversicherung",
+        "heroSubtitel": "Professioneller Umzug in Dübendorf, direkt neben Zürich — Festpreis ab CHF 460, vollversichert.",
+        "preisHinweis": "Ab CHF 460",
+        "lokaleFakten": [
+          "Glattpark & neue Wohnquartiere: Dübendorf wächst im Glatttal rasant — wir kennen die Neubauprojekte und deren Zufahrtsregelungen.",
+          "Grenze zu Zürich: Viele Dübendorfer ziehen nach Zürich oder umgekehrt — eine kurze Route, die wir effizient abwickeln.",
+          "Gewerbegebiet Stettbach: Firmenumzüge im Gewerbegebiet Stettbach/Brütten führen wir regelmässig durch."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet ein Umzug in Dübendorf?",
+            "antwort": "Ein Privatumzug in Dübendorf kostet ab CHF 460 (2-Zimmer-Wohnung). Bei Umzügen zwischen Dübendorf und Zürich entstehen keine zusätzlichen Fahrkosten — alles im Festpreis enthalten."
+          },
+          {
+            "frage": "Macht SD-Umzüge Firmenumzüge im Glatttal?",
+            "antwort": "Ja. Das Glatttal mit Dübendorf, Wallisellen und Opfikon ist ein Schwerpunkt unserer Firmenumzüge. Wir koordinieren auch grosse Büroumzüge mit minimalem Betriebsausfall — auch am Wochenende."
+          }
+        ]
+      },
+      "reinigung": {
+        "aktiv": true,
+        "h1": "Wohnungsreinigung Dübendorf mit Abnahmegarantie",
+        "heroSubtitel": "Endreinigung in Dübendorf ab CHF 260 — Abnahmegarantie, Kaution zurück, Festpreis.",
+        "preisHinweis": "Ab CHF 260",
+        "lokaleFakten": [
+          "Neubaustandards: In Dübendorfs neuen Wohnsiedlungen gelten hohe Reinigungsstandards — wir kennen die Anforderungen und liefern entsprechende Qualität."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet eine Endreinigung in Dübendorf?",
+            "antwort": "Eine Endreinigung in Dübendorf kostet ab CHF 260. Kostenlose Offerte innert 24h, mit verbindlichem Festpreis und Abnahmegarantie."
+          }
+        ]
+      },
+      "raeumung": {
+        "aktiv": true,
+        "h1": "Wohnungsräumung Dübendorf — Professionell & Diskret",
+        "heroSubtitel": "Räumungen in Dübendorf ab CHF 320 — Festpreis, schnelle Abwicklung.",
+        "preisHinweis": "Ab CHF 320",
+        "lokaleFakten": [],
+        "faq": [
+          {
+            "frage": "Was kostet eine Räumung in Dübendorf?",
+            "antwort": "Eine Räumung in Dübendorf kostet ab CHF 320. Verbindlicher Festpreis nach kostenloser Besichtigung."
+          }
+        ]
+      },
+      "klaviertransport": {
+        "aktiv": false,
+        "h1": "",
+        "heroSubtitel": "",
+        "preisHinweis": "",
+        "lokaleFakten": [],
+        "faq": []
+      }
+    }
+  },
+  {
+    "gemeinde": "Wetzikon",
+    "slug": "wetzikon",
+    "kanton": "ZH",
+    "bezirk": "Hinwil",
+    "einwohner": 27000,
+    "plz": ["8620"],
+    "koordinaten": { "lat": 47.3223, "lng": 8.7973 },
+    "stadtteile": ["Wetzikon","Robenhausen","Kempten","Ober-Wetzikon","Unter-Wetzikon"],
+    "nachbargemeinden": ["rueti","uster","pfaeffikon","gossau"],
+    "beschreibung": "Wetzikon ist das grösste Zentrum im Zürcher Oberland mit rund 27'000 Einwohnern und einem der bedeutendsten Einkaufszentren der Region.",
+    "services": {
+      "umzug": {
+        "aktiv": true,
+        "h1": "Umzug Wetzikon — Festpreisgarantie & Vollversicherung",
+        "heroSubtitel": "Professioneller Umzug in Wetzikon und dem Zürcher Oberland — Festpreis ab CHF 430, vollversichert.",
+        "preisHinweis": "Ab CHF 430",
+        "lokaleFakten": [
+          "Heimregion SD-Umzüge: Als Unternehmen aus Rüti ZH sind wir im Zürcher Oberland zuhause — Wetzikon liegt direkt in unserem Kerngebiet.",
+          "Direktverbindung nach Zürich: Die S-Bahn-Verbindung macht Wetzikon für Pendler attraktiv — viele Umzüge führen deshalb zwischen Wetzikon und Zürich.",
+          "Gewerbezentrum Wetzikon: Für Firmenumzüge im Gewerbegebiet Wetzikon sind wir bestens ausgestattet."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet ein Umzug in Wetzikon?",
+            "antwort": "Ein Privatumzug in Wetzikon kostet ab CHF 430 (2-Zimmer-Wohnung). Als lokales Unternehmen aus dem Zürcher Oberland bieten wir kurze Anfahrtswege und günstige Preise. Kostenlose Offerte innert 24h."
+          },
+          {
+            "frage": "Ist SD-Umzüge in Wetzikon lokal bekannt?",
+            "antwort": "Ja. SD-Umzüge hat seinen Sitz in Rüti ZH, direkt neben Wetzikon. Wir sind im Zürcher Oberland die lokale Wahl — mit schneller Verfügbarkeit und persönlicher Betreuung."
+          }
+        ]
+      },
+      "reinigung": {
+        "aktiv": true,
+        "h1": "Wohnungsreinigung Wetzikon mit Abnahmegarantie",
+        "heroSubtitel": "Endreinigung in Wetzikon ab CHF 240 — Abnahmegarantie, Kaution zurück.",
+        "preisHinweis": "Ab CHF 240",
+        "lokaleFakten": [
+          "Lokale Verankerung: Als Unternehmen aus Rüti ZH kennen wir die Verwaltungen und Vermieter im Zürcher Oberland bestens."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet eine Endreinigung in Wetzikon?",
+            "antwort": "Eine Endreinigung in Wetzikon kostet ab CHF 240. Inklusive Abnahmegarantie, Festpreis, innert 24h Offerte."
+          }
+        ]
+      },
+      "raeumung": {
+        "aktiv": true,
+        "h1": "Wohnungsräumung Wetzikon — Lokale Expertise",
+        "heroSubtitel": "Räumungen in Wetzikon ab CHF 290 — lokale Umzugsfirma, Festpreis.",
+        "preisHinweis": "Ab CHF 290",
+        "lokaleFakten": [],
+        "faq": [
+          {
+            "frage": "Was kostet eine Räumung in Wetzikon?",
+            "antwort": "Eine Räumung in Wetzikon kostet ab CHF 290. Verbindlicher Festpreis nach Besichtigung. Als lokales Unternehmen aus Rüti ZH sind wir schnell vor Ort."
+          }
+        ]
+      },
+      "klaviertransport": {
+        "aktiv": false,
+        "h1": "",
+        "heroSubtitel": "",
+        "preisHinweis": "",
+        "lokaleFakten": [],
+        "faq": []
+      }
+    }
+  },
+  {
+    "gemeinde": "Rüti ZH",
+    "slug": "rueti",
+    "kanton": "ZH",
+    "bezirk": "Hinwil",
+    "einwohner": 12000,
+    "plz": ["8630"],
+    "koordinaten": { "lat": 47.2587, "lng": 8.8456 },
+    "stadtteile": ["Rüti","Tann","Binzikon"],
+    "nachbargemeinden": ["wetzikon","uster","pfaeffikon","gossau"],
+    "beschreibung": "Rüti ZH ist der Heimatstandort von SD-Umzüge — eine wachsende Gemeinde im Zürcher Oberland mit direkter S-Bahn-Anbindung nach Zürich.",
+    "services": {
+      "umzug": {
+        "aktiv": true,
+        "h1": "Umzug Rüti ZH — Ihre lokale Umzugsfirma",
+        "heroSubtitel": "SD-Umzüge ist in Rüti ZH zuhause — Festpreis ab CHF 390, vollversichert, pünktlich.",
+        "preisHinweis": "Ab CHF 390",
+        "lokaleFakten": [
+          "Heimstandort: SD-Umzüge hat seinen Sitz in Rüti ZH — kein Unternehmen kennt die Gemeinde besser.",
+          "Kurze Anfahrtszeit: Bei Umzügen in Rüti ZH sparen wir Fahrzeit und können besonders günstige Preise anbieten.",
+          "Lokale Referenzen: Viele Rüti-Einwohner haben SD-Umzüge bereits erfolgreich für ihren Umzug genutzt."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet ein Umzug in Rüti ZH?",
+            "antwort": "Ein Privatumzug in Rüti ZH kostet ab CHF 390 — als lokales Unternehmen aus Rüti können wir besonders günstige Preise anbieten. Kostenlose Festpreisofferte innert 24h."
+          },
+          {
+            "frage": "Warum SD-Umzüge für Umzüge in Rüti ZH wählen?",
+            "antwort": "SD-Umzüge hat seinen Sitz in Rüti ZH und ist damit die lokale Wahl. Kurze Anfahrtswege bedeuten weniger Kosten für Sie. Wir kennen alle Quartiere, Strassen und Besonderheiten der Gemeinde aus dem täglichen Betrieb."
+          }
+        ]
+      },
+      "reinigung": {
+        "aktiv": true,
+        "h1": "Wohnungsreinigung Rüti ZH — Ihre lokale Reinigungsfirma",
+        "heroSubtitel": "Endreinigung in Rüti ZH ab CHF 220 — Abnahmegarantie, lokale Expertise.",
+        "preisHinweis": "Ab CHF 220",
+        "lokaleFakten": [
+          "Heimvorteil: Als lokales Unternehmen kennen wir die Hausverwaltungen und Abnahmestandards in Rüti ZH bestens."
+        ],
+        "faq": [
+          {
+            "frage": "Was kostet eine Endreinigung in Rüti ZH?",
+            "antwort": "Eine Endreinigung in Rüti ZH kostet ab CHF 220 — günstige Preise dank fehlender Anfahrtskosten. Kostenlose Offerte innert 24h, Abnahmegarantie inklusive."
+          }
+        ]
+      },
+      "raeumung": {
+        "aktiv": true,
+        "h1": "Wohnungsräumung Rüti ZH — Lokale Expertise",
+        "heroSubtitel": "Räumungen in Rüti ZH ab CHF 270 — lokale Umzugsfirma, Festpreis.",
+        "preisHinweis": "Ab CHF 270",
+        "lokaleFakten": [],
+        "faq": [
+          {
+            "frage": "Was kostet eine Räumung in Rüti ZH?",
+            "antwort": "Eine Räumung in Rüti ZH kostet ab CHF 270. Als lokales Unternehmen aus Rüti sind wir schnell vor Ort. Verbindlicher Festpreis nach Besichtigung."
+          }
+        ]
+      },
+      "klaviertransport": {
+        "aktiv": true,
+        "h1": "Klaviertransport Rüti ZH — Fachgerecht & Lokal",
+        "heroSubtitel": "Klavier- und Instrumententransport in Rüti ZH ab CHF 280 — lokale Umzugsfirma.",
+        "preisHinweis": "Ab CHF 280",
+        "lokaleFakten": [],
+        "faq": [
+          {
+            "frage": "Was kostet ein Klaviertransport in Rüti ZH?",
+            "antwort": "Ein Klaviertransport in Rüti ZH kostet ab CHF 280. Als lokales Unternehmen aus Rüti bieten wir kurze Anfahrtswege und günstige Preise. Offerte innert 48h."
+          }
+        ]
+      }
+    }
+  }
+]

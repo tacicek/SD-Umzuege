@@ -1,6 +1,30 @@
 import { MetadataRoute } from "next";
+import gemeindenData from "@/data/gemeinden.json";
 
 const BASE_URL = "https://www.sd-umzuege.ch";
+const SERVICES = ["umzug", "reinigung", "raeumung", "klaviertransport"] as const;
+
+type ServiceSlug = (typeof SERVICES)[number];
+
+interface GemeindeEntry {
+  slug: string;
+  einwohner: number;
+  services: Record<string, { aktiv: boolean }>;
+}
+
+const gemeinden = gemeindenData as GemeindeEntry[];
+
+function locationUrls(): MetadataRoute.Sitemap {
+  const now = new Date();
+  return gemeinden.flatMap((g) =>
+    SERVICES.filter((s: ServiceSlug) => g.services[s]?.aktiv).map((s) => ({
+      url: `${BASE_URL}/${s}/gemeinde/${g.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: g.einwohner > 50000 ? 0.9 : g.einwohner > 20000 ? 0.85 : 0.8,
+    }))
+  );
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -72,5 +96,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.3,
     },
+    ...locationUrls(),
   ];
 }

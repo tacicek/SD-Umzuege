@@ -1,0 +1,210 @@
+{
+  "_hinweis": "Fotos hier pflegen — kein Code-Deployment nötig. Fehlende Einträge fallen auf den Service-Standard zurück.",
+  "zuerich": {
+    "umzug": {
+      "hero": {
+        "src": "/images/locations/zuerich-umzug-hero.webp",
+        "alt": "SD-Umzüge beim Umzug in Zürich — professionelles Umzugsteam",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": [
+        {
+          "src": "/images/locations/zuerich-umzug-1.webp",
+          "alt": "Umzug in Zürich Kreis 4 — enges Treppenhaus, Spezialausrüstung",
+          "caption": "Auch schwierige Zugänge meistern wir sicher"
+        }
+      ]
+    },
+    "reinigung": {
+      "hero": {
+        "src": "/images/locations/zuerich-reinigung-hero.webp",
+        "alt": "Professionelle Endreinigung einer Zürcher Altbauwohnung",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "raeumung": {
+      "hero": {
+        "src": "/images/locations/zuerich-raeumung-hero.webp",
+        "alt": "Wohnungsräumung in Zürich — SD-Umzüge Team bei der Arbeit",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "klaviertransport": {
+      "hero": {
+        "src": "/images/locations/zuerich-klaviertransport-hero.webp",
+        "alt": "Klaviertransport in Zürich — fachgerechter Transport eines Klaviers",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    }
+  },
+  "winterthur": {
+    "umzug": {
+      "hero": {
+        "src": "/images/locations/winterthur-umzug-hero.webp",
+        "alt": "Umzug in Winterthur — SD-Umzüge Umzugsteam in der Altstadt",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "reinigung": {
+      "hero": {
+        "src": "/images/locations/winterthur-reinigung-hero.webp",
+        "alt": "Endreinigung in Winterthur mit Abnahmegarantie",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "raeumung": {
+      "hero": {
+        "src": "/images/locations/winterthur-raeumung-hero.webp",
+        "alt": "Wohnungsräumung in Winterthur durch SD-Umzüge",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "klaviertransport": {
+      "hero": {
+        "src": "/images/locations/winterthur-klaviertransport-hero.webp",
+        "alt": "Klaviertransport in Winterthur — Musikstadt",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    }
+  },
+  "uster": {
+    "umzug": {
+      "hero": {
+        "src": "/images/locations/uster-umzug-hero.webp",
+        "alt": "Umzug in Uster — Zürcher Oberland Umzugsfirma SD-Umzüge",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "reinigung": {
+      "hero": {
+        "src": "/images/locations/uster-reinigung-hero.webp",
+        "alt": "Endreinigung in Uster mit Abnahmegarantie",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "raeumung": {
+      "hero": {
+        "src": "/images/locations/uster-raeumung-hero.webp",
+        "alt": "Wohnungsräumung in Uster durch SD-Umzüge",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    }
+  },
+  "duebendorf": {
+    "umzug": {
+      "hero": {
+        "src": "/images/locations/duebendorf-umzug-hero.webp",
+        "alt": "Umzug in Dübendorf — Glatttal Umzugsfirma SD-Umzüge",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "reinigung": {
+      "hero": {
+        "src": "/images/locations/duebendorf-reinigung-hero.webp",
+        "alt": "Endreinigung in Dübendorf mit Abnahmegarantie",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "raeumung": {
+      "hero": {
+        "src": "/images/locations/duebendorf-raeumung-hero.webp",
+        "alt": "Wohnungsräumung in Dübendorf durch SD-Umzüge",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    }
+  },
+  "wetzikon": {
+    "umzug": {
+      "hero": {
+        "src": "/images/locations/wetzikon-umzug-hero.webp",
+        "alt": "Umzug in Wetzikon — lokale Umzugsfirma SD-Umzüge aus dem Zürcher Oberland",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "reinigung": {
+      "hero": {
+        "src": "/images/locations/wetzikon-reinigung-hero.webp",
+        "alt": "Endreinigung in Wetzikon mit Abnahmegarantie",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "raeumung": {
+      "hero": {
+        "src": "/images/locations/wetzikon-raeumung-hero.webp",
+        "alt": "Wohnungsräumung in Wetzikon durch SD-Umzüge",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    }
+  },
+  "rueti": {
+    "umzug": {
+      "hero": {
+        "src": "/images/locations/rueti-umzug-hero.webp",
+        "alt": "SD-Umzüge — Ihre lokale Umzugsfirma aus Rüti ZH",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "reinigung": {
+      "hero": {
+        "src": "/images/locations/rueti-reinigung-hero.webp",
+        "alt": "Endreinigung in Rüti ZH — lokale Reinigungsfirma SD-Umzüge",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "raeumung": {
+      "hero": {
+        "src": "/images/locations/rueti-raeumung-hero.webp",
+        "alt": "Wohnungsräumung in Rüti ZH durch SD-Umzüge",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    },
+    "klaviertransport": {
+      "hero": {
+        "src": "/images/locations/rueti-klaviertransport-hero.webp",
+        "alt": "Klaviertransport in Rüti ZH — SD-Umzüge",
+        "width": 1200,
+        "height": 630
+      },
+      "galerie": []
+    }
+  }
+}
