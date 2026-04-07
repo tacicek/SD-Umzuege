@@ -24,8 +24,16 @@ export async function generateMetadata({
   const sub = getSubServiceBySlug("umzug", subslug);
   if (!sub) return {};
   return {
-    title: `${sub.title} | SD-Umzüge`,
-    description: sub.description,
+    title: `${sub.title} Zürich — Professionell & Festpreis | SD-Umzüge`,
+    description: `${sub.description} Festpreisgarantie, Vollversicherung bis CHF 100'000 und erfahrenes Team in Zürich & Deutschschweiz. Jetzt Offerte anfordern.`,
+    alternates: {
+      canonical: `/umzug/${subslug}`,
+    },
+    openGraph: {
+      title: `${sub.title} Zürich | SD-Umzüge`,
+      description: sub.description,
+      url: `/umzug/${subslug}`,
+    },
   };
 }
 

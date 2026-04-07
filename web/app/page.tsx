@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SITE_URL, SITE_NAME } from "@/lib/seo";
 import HeroSection from "@/components/sections/HeroSection";
 import StatsBar from "@/components/sections/StatsBar";
 import ServicesSection from "@/components/sections/ServicesSection";
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "SD-Umzüge — Umzugsunternehmen Zürich",
+    title: `${SITE_NAME} — Umzugsunternehmen Zürich`,
     description:
       "Professionelle Umzüge, Reinigungen & Räumungen in Zürich. Festpreisgarantie, Vollversicherung, über 500 zufriedene Kunden.",
     url: "/",
@@ -25,11 +26,11 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "MovingCompany",
-  name: "SD-Umzüge",
+  name: SITE_NAME,
   alternateName: "S&D Umzüge",
-  url: "https://www.sd-umzuege.ch",
-  logo: "https://www.sd-umzuege.ch/images/SD-Umzug-Logo.webp",
-  image: "https://www.sd-umzuege.ch/images/SD-Umzug-Logo.webp",
+  url: SITE_URL,
+  logo: `${SITE_URL}/images/SD-Umzug-Logo.webp`,
+  image: `${SITE_URL}/images/Umzugsfirma-sd-umzuege.webp`,
   description:
     "Professionelles Umzugsunternehmen in Zürich. Umzug, Reinigung, Räumung & Klaviertransport mit Festpreisgarantie und Vollversicherung.",
   telephone: "+41765053792",
@@ -82,17 +83,18 @@ const localBusinessSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "SD-Umzüge",
-  url: "https://www.sd-umzuege.ch",
+  name: SITE_NAME,
+  url: SITE_URL,
   description: "Professionelles Umzugsunternehmen in Zürich",
   inLanguage: "de-CH",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: "https://www.sd-umzuege.ch/leistungen",
+  publisher: {
+    "@type": "Organization",
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/images/SD-Umzug-Logo.webp`,
     },
-    "query-input": "required name=search_term_string",
   },
 };
 
