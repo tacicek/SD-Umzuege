@@ -84,14 +84,14 @@ export function getAllActiveGemeindenSlugs(service: ServiceSlug): string[] {
 }
 
 export function getLocationPhoto(slug: string, service: ServiceSlug): FotoEntry {
-  const fotos = fotosData as Record<string, Record<string, { hero?: FotoEntry }>>;
+  const fotos = fotosData as unknown as Record<string, Record<string, { hero?: FotoEntry }>>;
   const hero = fotos[slug]?.[service]?.hero;
   if (hero && hero.src && !hero.src.includes("PLACEHOLDER")) return hero;
   return DEFAULT_FOTOS[service];
 }
 
 export function getLocationGalerie(slug: string, service: ServiceSlug): GalerieEntry[] {
-  const fotos = fotosData as Record<string, Record<string, { galerie?: GalerieEntry[] }>>;
+  const fotos = fotosData as unknown as Record<string, Record<string, { galerie?: GalerieEntry[] }>>;
   return fotos[slug]?.[service]?.galerie ?? [];
 }
 
