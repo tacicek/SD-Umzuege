@@ -7,6 +7,7 @@ import {
   reinigungEmailHtml, reinigungEmailText,
   raeumungEmailHtml, raeumungEmailText,
   klaviertransportEmailHtml, klaviertransportEmailText,
+  confirmationEmailHtml, confirmationEmailText,
 } from "@/lib/email-templates";
 
 export const dynamic = "force-dynamic";
@@ -83,7 +84,27 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    console.log("[send] Email sent:", emailData?.id);
+    console.log("[send] Business notification sent:", emailData?.id);
+
+    // Send confirmation email to the customer
+    const customerEmail = typeof data.email === "string" ? data.email : null;
+    const customerName = typeof data.name === "string" ? data.name : "Kunde";
+
+    if (customerEmail) {
+      const { error: confirmError } = await resend.emails.send({
+        from: FROM_EMAIL,
+        to: customerEmail,
+        subject: `Bestätigung: ${SUBJECT_MAP[type].replace("Neue ", "").replace(" — sd-umzuege.ch", "")}`,
+        html: confirmationEmailHtml({ name: customerName, type }),
+        text: confirmationEmailText({ name: customerName, type }),
+      });
+      if (confirmError) {
+        console.warn("[send] Confirmation email failed:", JSON.stringify(confirmError));
+      } else {
+        console.log("[send] Confirmation sent to customer:", customerEmail);
+      }
+    }
+
     return NextResponse.json({ success: true });
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);

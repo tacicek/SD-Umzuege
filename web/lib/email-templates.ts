@@ -385,3 +385,53 @@ export function klaviertransportEmailHtml(data: {
 export function klaviertransportEmailText(data: Record<string, unknown>): string {
   return `Neue Klaviertransport-Anfrage\n\n${JSON.stringify(data, null, 2)}`;
 }
+
+// ── Template: Kundenbestätigung (an den Kunden) ───────────────────────────
+
+const SERVICE_LABELS: Record<string, string> = {
+  kontakt: "Ihre Kontaktanfrage",
+  angebot: "Ihre Angebotsanfrage",
+  umzug: "Ihre Umzugsanfrage",
+  reinigung: "Ihre Reinigungsanfrage",
+  raeumung: "Ihre Räumungsanfrage",
+  klaviertransport: "Ihre Klaviertransport-Anfrage",
+};
+
+export function confirmationEmailHtml(data: {
+  name: string;
+  type: string;
+}): string {
+  const serviceLabel = SERVICE_LABELS[data.type] ?? "Ihre Anfrage";
+  const body = `
+    <p style="margin:0 0 16px;color:#374151;font-size:15px;line-height:1.6;">
+      Guten Tag <strong>${data.name}</strong>,
+    </p>
+    <p style="margin:0 0 16px;color:#374151;font-size:15px;line-height:1.6;">
+      vielen Dank für ${serviceLabel}. Wir haben Ihre Nachricht erhalten und werden uns <strong>innert 24 Stunden</strong> bei Ihnen melden, um Ihnen ein unverbindliches Angebot zu unterbreiten.
+    </p>
+    <div style="background:#f0f7ff;border-left:4px solid ${BRAND_COLOR};border-radius:4px;padding:16px 20px;margin:24px 0;">
+      <p style="margin:0;color:${BRAND_COLOR};font-size:14px;font-weight:600;">Was passiert als nächstes?</p>
+      <ul style="margin:8px 0 0;padding-left:20px;color:#374151;font-size:14px;line-height:1.8;">
+        <li>Wir prüfen Ihre Anfrage sorgfältig</li>
+        <li>Wir melden uns telefonisch oder per E-Mail</li>
+        <li>Sie erhalten ein detailliertes Festpreisangebot</li>
+      </ul>
+    </div>
+    <p style="margin:0 0 8px;color:#374151;font-size:14px;">Bei dringenden Fragen erreichen Sie uns direkt:</p>
+    <p style="margin:0;font-size:14px;">
+      <a href="tel:+41765053792" style="color:${ACCENT_COLOR};font-weight:600;text-decoration:none;">+41 76 505 37 92</a>
+      &nbsp;·&nbsp;
+      <a href="mailto:info@sd-umzuege.ch" style="color:${ACCENT_COLOR};text-decoration:none;">info@sd-umzuege.ch</a>
+    </p>
+    <p style="margin:24px 0 0;color:#9ca3af;font-size:13px;">Mit freundlichen Grüssen,<br><strong style="color:#374151;">Team SD-Umzüge</strong></p>
+  `;
+  return baseLayout(serviceLabel, body);
+}
+
+export function confirmationEmailText(data: {
+  name: string;
+  type: string;
+}): string {
+  const serviceLabel = SERVICE_LABELS[data.type] ?? "Ihre Anfrage";
+  return `Guten Tag ${data.name},\n\nvielen Dank für ${serviceLabel}. Wir haben Ihre Nachricht erhalten und melden uns innert 24 Stunden bei Ihnen.\n\nBei dringenden Fragen: +41 76 505 37 92 | info@sd-umzuege.ch\n\nMit freundlichen Grüssen,\nTeam SD-Umzüge`;
+}
