@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function HeroSection() {
@@ -7,25 +8,37 @@ export default function HeroSection() {
       className="relative bg-brand-primary overflow-hidden"
       aria-label="Willkommen bei SD-Umzüge"
     >
-      {/* Background gradient overlay */}
-      <div
-        className="absolute inset-0 bg-gradient-to-br from-brand-primary via-brand-primary-light to-[#0f2547] opacity-90"
+      {/* ── Background photo ── */}
+      <Image
+        src="/images/Umzugsfirma-sd-umzuege.webp"
+        alt=""
+        fill
+        priority
+        className="object-cover object-center"
+        sizes="100vw"
         aria-hidden="true"
       />
 
-      {/* Decorative circle blobs */}
+      {/* ── Overlay — dark left (text readable), fades right (photo visible) ── */}
       <div
-        className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-brand-primary-light opacity-20 blur-3xl"
+        className="absolute inset-0 bg-gradient-to-r from-[#103590]/95 via-[#103590]/85 to-[#103590]/60"
+        aria-hidden="true"
+      />
+
+      {/* ── Decorative blobs ── */}
+      <div
+        className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-brand-primary-light opacity-20 blur-3xl pointer-events-none"
         aria-hidden="true"
       />
       <div
-        className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-brand-accent opacity-10 blur-3xl"
+        className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-brand-accent opacity-10 blur-3xl pointer-events-none"
         aria-hidden="true"
       />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left column — content */}
+
+          {/* ── Left column — content ── */}
           <div className="flex flex-col gap-6">
             {/* Location badge */}
             <div className="inline-flex items-center gap-2 self-start bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 text-sm text-white/90 font-medium">
@@ -94,7 +107,7 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right column — price cards (desktop only) */}
+          {/* ── Right column — service price cards (desktop only) ── */}
           <div
             className="hidden lg:flex flex-col gap-4"
             aria-label="Unsere Dienstleistungen und Preise"
@@ -149,6 +162,7 @@ export default function HeroSection() {
               </article>
             ))}
           </div>
+
         </div>
       </div>
     </section>
