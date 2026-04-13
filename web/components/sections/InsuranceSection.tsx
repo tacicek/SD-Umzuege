@@ -66,14 +66,14 @@ export default function InsuranceSection() {
         {/* ── AXA Banner ── */}
         <div className="rounded-2xl overflow-hidden mb-10 shadow-lg">
           <div className="bg-[#103590] px-6 py-7 flex flex-col sm:flex-row items-center gap-6">
-            {/* AXA Logo */}
-            <div className="flex-shrink-0 flex items-center justify-center w-28 h-14 relative">
+            {/* AXA Logo — white card for contrast on navy */}
+            <div className="flex-shrink-0 bg-white rounded-xl px-4 py-2 shadow-md flex items-center justify-center">
               <Image
                 src="/images/Axa-Logo.svg"
-                alt="AXA Versicherung"
-                fill
-                className="object-contain drop-shadow-md"
-                sizes="112px"
+                alt="AXA Versicherung — offizieller Versicherungspartner"
+                width={80}
+                height={80}
+                className="w-16 h-16"
               />
             </div>
 
