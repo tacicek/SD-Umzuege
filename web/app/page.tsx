@@ -4,6 +4,7 @@ import HeroSection from "@/components/sections/HeroSection";
 import StatsBar from "@/components/sections/StatsBar";
 import ServicesSection from "@/components/sections/ServicesSection";
 import UspSection from "@/components/sections/UspSection";
+import InsuranceSection from "@/components/sections/InsuranceSection";
 import ProcessSection from "@/components/sections/ProcessSection";
 import FaqSection from "@/components/sections/FaqSection";
 import CtaSection from "@/components/sections/CtaSection";
@@ -113,6 +114,7 @@ export default function HomePage() {
       <StatsBar />
       <ServicesSection />
       <UspSection />
+      <InsuranceSection />
       <ProcessSection />
       <FaqSection />
       <CtaSection />

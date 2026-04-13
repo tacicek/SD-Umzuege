@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <!-- AXA red background -->
+  <rect width="200" height="80" rx="4" fill="#FF1721"/>
+  <!-- AXA white wordmark — simplified geometric letterforms -->
+  <!-- A -->
+  <polygon points="28,62 44,18 60,62 52,62 44,38 36,62" fill="white"/>
+  <rect x="34" y="50" width="20" height="6" fill="#FF1721"/>
+  <!-- X -->
+  <line x1="76" y1="18" x2="112" y2="62" stroke="white" stroke-width="9" stroke-linecap="round"/>
+  <line x1="112" y1="18" x2="76" y2="62" stroke="white" stroke-width="9" stroke-linecap="round"/>
+  <!-- A (second) -->
+  <polygon points="128,62 144,18 160,62 152,62 144,38 136,62" fill="white"/>
+  <rect x="134" y="50" width="20" height="6" fill="#FF1721"/>
+</svg>
